@@ -1,9 +1,9 @@
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
-from sentence_transformers import SentenceTransformer
+from fastembed import TextEmbedding
 import faiss
+import numpy as np
 import json
 from pathlib import Path
 
@@ -15,19 +15,24 @@ with open(faqs_path, "r", encoding="utf-8") as f:
 
 print(f"Loaded {len(faqs)} FAQs")
 
-embedder = SentenceTransformer('all-MiniLM-L6-v2')
 questions = [item["question"] for item in faqs]
 answers = [item["answer"] for item in faqs]
 
-question_embeddings = embedder.encode(questions, convert_to_numpy=True)
+# ====================== LIGHTWEIGHT EMBEDDING MODEL ======================
+print("Loading lightweight embedding model...")
+embedder = TextEmbedding(model_name="BAAI/bge-small-en-v1.5")  # very light & good quality
 
+print("Creating embeddings...")
+question_embeddings = np.array(list(embedder.embed(questions)))
+
+# ====================== BUILD FAISS INDEX ======================
 dimension = question_embeddings.shape[1]
 index = faiss.IndexFlatL2(dimension)
-index.add(question_embeddings)
+index.add(question_embeddings.astype(np.float32))
 
 print("Search index ready!")
 
-# ====================== CREATE API ======================
+# ====================== FASTAPI APP ======================
 app = FastAPI(title="Indian Banking FAQ Bot")
 
 app.add_middleware(
@@ -40,8 +45,9 @@ app.add_middleware(
 
 @app.get("/ask")
 def ask_question(q: str = Query(..., description="Your question")):
-    query_vec = embedder.encode([q], convert_to_numpy=True)
-    distances, indices = index.search(query_vec, 3)
+    query_embedding = np.array(list(embedder.embed([q]))).astype(np.float32)
+    
+    distances, indices = index.search(query_embedding, 3)
 
     results = []
     for i, idx in enumerate(indices[0]):
@@ -57,7 +63,6 @@ def ask_question(q: str = Query(..., description="Your question")):
         "matches": results
     }
 
-# Serve the frontend
 @app.get("/")
 def serve_frontend():
     return FileResponse("index.html")

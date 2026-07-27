@@ -1,0 +1,874 @@
+[
+  {
+    "question": "What is the minimum balance required for a savings account in most Indian banks?",
+    "answer": "It varies by bank and account type. For regular savings accounts, many public sector banks require ₹1,000–₹5,000 in metro cities and lower in rural areas. Zero-balance accounts like Basic Savings Bank Deposit Accounts (BSBDA) require no minimum balance."
+  },
+  {
+    "question": "What documents are required to open a savings bank account in India?",
+    "answer": "Typically: Proof of Identity (Aadhaar, PAN, Passport, Voter ID, Driving Licence), Proof of Address (Aadhaar, utility bill, passport), and recent passport-size photographs. PAN is mandatory for most accounts."
+  },
+  {
+    "question": "What is KYC and why is it mandatory?",
+    "answer": "KYC (Know Your Customer) is the process of verifying a customer’s identity and address as per RBI guidelines to prevent money laundering and fraud. It is mandatory for all bank accounts and financial services in India."
+  },
+  {
+    "question": "Can I open a bank account online in India?",
+    "answer": "Yes. Most banks allow online account opening through their websites or apps using Aadhaar-based e-KYC (OTP authentication) or video KYC. Full KYC may still be required later for higher limits."
+  },
+  {
+    "question": "What is the difference between NEFT, RTGS and IMPS?",
+    "answer": "NEFT (National Electronic Funds Transfer) is for amounts above ₹1 with no upper limit, processed in batches. RTGS (Real Time Gross Settlement) is for high-value transfers (minimum ₹2 lakh) settled in real time. IMPS (Immediate Payment Service) is for instant 24×7 transfers up to ₹5 lakh."
+  },
+  {
+    "question": "What is UPI and how does it work?",
+    "answer": "Unified Payments Interface (UPI) is a real-time payment system developed by NPCI that allows instant money transfer between bank accounts using a Virtual Payment Address (VPA), mobile number, or QR code through apps like Google Pay, PhonePe, Paytm, or bank apps."
+  },
+  {
+    "question": "Is there any charge for UPI transactions?",
+    "answer": "Currently, person-to-person (P2P) UPI transactions are free. Merchant (P2M) transactions above certain limits may attract charges as per NPCI/RBI guidelines, but most are still free for customers."
+  },
+  {
+    "question": "What is the daily limit for UPI transactions?",
+    "answer": "The default limit is ₹1 lakh per day for most users. Banks and UPI apps may set lower limits. For specific categories (like capital markets or insurance), higher limits up to ₹5 lakh are allowed."
+  },
+  {
+    "question": "What should I do if my UPI transaction fails but money is deducted?",
+    "answer": "The amount is usually auto-reversed within 24–48 hours (sometimes up to 5–7 days). If not, raise a complaint through the UPI app, bank app, or NPCI’s complaint portal with the UTR number."
+  },
+  {
+    "question": "What is IFSC code?",
+    "answer": "Indian Financial System Code (IFSC) is an 11-character alphanumeric code that uniquely identifies a bank branch in India. It is required for NEFT, RTGS, and IMPS transfers."
+  },
+  {
+    "question": "How can I find my bank’s IFSC code?",
+    "answer": "You can find it on your cheque book, passbook, bank’s website, or through the RBI IFSC search tool, or by searching online with your branch name."
+  },
+  {
+    "question": "What is the difference between a debit card and a credit card?",
+    "answer": "A debit card deducts money directly from your bank account. A credit card allows you to borrow money up to a limit and repay later, often with interest if not paid in full."
+  },
+  {
+    "question": "What is the validity period of a debit card in India?",
+    "answer": "Most debit cards are valid for 5 years from the date of issue. Banks issue a new card before expiry."
+  },
+  {
+    "question": "What should I do if my debit/credit card is lost or stolen?",
+    "answer": "Immediately block the card through the bank’s app, net banking, SMS, or customer care helpline. Then request a new card. Also file a police complaint if needed."
+  },
+  {
+    "question": "Are there charges for using another bank’s ATM?",
+    "answer": "Yes. After free transactions (usually 3–5 per month depending on the bank and city), charges of ₹20–₹25 + GST per transaction apply for cash withdrawals from other bank ATMs."
+  },
+  {
+    "question": "What is the maximum cash withdrawal limit at ATMs?",
+    "answer": "It varies by bank and card type, typically ₹10,000–₹50,000 per day. Some premium cards allow higher limits."
+  },
+  {
+    "question": "What is a Fixed Deposit (FD)?",
+    "answer": "A Fixed Deposit is a savings instrument where you deposit a lump sum for a fixed tenure at a predetermined interest rate. Premature withdrawal may attract a penalty."
+  },
+  {
+    "question": "What is the current interest rate range for Fixed Deposits in India?",
+    "answer": "As of 2026, FD rates generally range from 6.5% to 7.5% per annum for general public, with higher rates for senior citizens (usually 0.50% extra)."
+  },
+  {
+    "question": "Is interest earned on Fixed Deposits taxable?",
+    "answer": "Yes. Interest is added to your income and taxed as per your slab. TDS is deducted if interest exceeds ₹40,000 (₹50,000 for senior citizens) in a financial year."
+  },
+  {
+    "question": "What is a Recurring Deposit (RD)?",
+    "answer": "A Recurring Deposit allows you to deposit a fixed amount every month for a chosen tenure. Interest is similar to FD rates and is paid at maturity."
+  },
+  {
+    "question": "What is the difference between savings account and current account?",
+    "answer": "Savings accounts are for individuals with interest earning and transaction limits. Current accounts are for businesses with unlimited transactions, no interest (or very low), and higher minimum balance requirements."
+  },
+  {
+    "question": "Can NRIs open bank accounts in India?",
+    "answer": "Yes. NRIs can open NRE (Non-Resident External), NRO (Non-Resident Ordinary), and FCNR (Foreign Currency Non-Resident) accounts as per FEMA guidelines."
+  },
+  {
+    "question": "What is the difference between NRE and NRO accounts?",
+    "answer": "NRE accounts are for foreign earnings, fully repatriable, and interest is tax-free in India. NRO accounts are for Indian income, repatriation is restricted, and interest is taxable."
+  },
+  {
+    "question": "What is the process to close a bank account?",
+    "answer": "Visit the branch or use net banking (if available), submit a closure request form, surrender cheque book, debit card, and passbook, and settle any dues. Remaining balance is transferred to another account."
+  },
+  {
+    "question": "How long does it take to get a new cheque book?",
+    "answer": "Usually 3–7 working days if requested through net banking or branch. Some banks offer instant cheque books at the branch."
+  },
+  {
+    "question": "What is the meaning of ‘Stop Payment’ of a cheque?",
+    "answer": "It is an instruction given to the bank not to honour a particular cheque. You can request it via net banking, app, or branch by providing cheque number and reason."
+  },
+  {
+    "question": "What is the charge for stop payment of a cheque?",
+    "answer": "Most banks charge ₹50–₹150 per cheque or instruction, plus GST."
+  },
+  {
+    "question": "What is a Demand Draft (DD)?",
+    "answer": "A Demand Draft is a prepaid negotiable instrument issued by a bank directing another bank or branch to pay a specified sum to a named person. It is safer than a cheque."
+  },
+  {
+    "question": "How can I get a Demand Draft?",
+    "answer": "You can request it at any bank branch by filling a form and paying the amount plus commission. Some banks also allow online DD requests."
+  },
+  {
+    "question": "What is the validity of a Demand Draft?",
+    "answer": "A Demand Draft is generally valid for 3 months from the date of issue."
+  },
+  {
+    "question": "What is the difference between a cheque and a Demand Draft?",
+    "answer": "A cheque can bounce if there are insufficient funds. A Demand Draft is prepaid and cannot bounce. DD is more secure for large payments."
+  },
+  {
+    "question": "What is ECS and how does it work?",
+    "answer": "Electronic Clearing Service (ECS) is a method for bulk electronic payments or receipts (like salary, dividends, EMI, utility bills) through banks."
+  },
+  {
+    "question": "What is NACH?",
+    "answer": "National Automated Clearing House (NACH) is an improved version of ECS managed by NPCI for bulk and repetitive payments, widely used for EMI, SIPs, and bill payments."
+  },
+  {
+    "question": "How can I link my Aadhaar with my bank account?",
+    "answer": "You can link Aadhaar through net banking, mobile banking, ATM, SMS, or by visiting the branch with your Aadhaar number."
+  },
+  {
+    "question": "Is Aadhaar mandatory for banking?",
+    "answer": "Aadhaar is not mandatory but is the most convenient way for e-KYC. Banks accept other officially valid documents if Aadhaar is not available."
+  },
+  {
+    "question": "What is the penalty for not maintaining minimum balance?",
+    "answer": "Banks charge a fee (usually ₹10–₹100 + GST per month) if the average monthly/quarterly balance falls below the prescribed minimum."
+  },
+  {
+    "question": "What is a Basic Savings Bank Deposit Account (BSBDA)?",
+    "answer": "It is a zero-balance savings account with basic features, limited free transactions, and no minimum balance requirement, as per RBI guidelines for financial inclusion."
+  },
+  {
+    "question": "Can I have multiple bank accounts?",
+    "answer": "Yes, there is no restriction on the number of savings or current accounts you can hold in different banks or even the same bank (subject to bank policy)."
+  },
+  {
+    "question": "What is the interest rate on savings accounts currently?",
+    "answer": "Most banks offer 2.5% to 3.5% per annum on savings accounts. Some private banks offer higher rates on higher balances."
+  },
+  {
+    "question": "How is interest calculated on a savings account?",
+    "answer": "Interest is calculated on the daily closing balance and credited quarterly or monthly, depending on the bank."
+  },
+  {
+    "question": "What is a nomination facility in a bank account?",
+    "answer": "Nomination allows you to appoint a person who will receive the account balance in case of the account holder’s death. It simplifies the claim process."
+  },
+  {
+    "question": "How can I add or change a nominee in my bank account?",
+    "answer": "You can do it through net banking, mobile app, or by submitting a nomination form at the branch."
+  },
+  {
+    "question": "What happens to the bank account after the account holder’s death?",
+    "answer": "If a nominee is registered, the nominee can claim the balance by submitting required documents. Without nomination, legal heirs need a succession certificate or court order."
+  },
+  {
+    "question": "What is the claim process for a deceased account holder’s balance?",
+    "answer": "Nominee or legal heirs must submit death certificate, claim form, identity proof, and other documents as required by the bank. Settlement usually takes 15–30 days."
+  },
+  {
+    "question": "What is a joint account and its types?",
+    "answer": "A joint account is held by two or more persons. Common types are ‘Either or Survivor’, ‘Former or Survivor’, ‘Anyone or Survivor’, and ‘Jointly operated’."
+  },
+  {
+    "question": "Can I convert my individual account into a joint account?",
+    "answer": "Yes, by submitting a request and KYC documents of the new joint holder at the branch."
+  },
+  {
+    "question": "What is the maximum amount that can be transferred via NEFT?",
+    "answer": "There is no upper limit for NEFT transactions."
+  },
+  {
+    "question": "What is the minimum amount for RTGS transfer?",
+    "answer": "The minimum amount for RTGS is ₹2 lakh."
+  },
+  {
+    "question": "What are the timings for NEFT and RTGS?",
+    "answer": "NEFT and RTGS are available 24×7 on all days including holidays since December 2019 and 2020 respectively."
+  },
+  {
+    "question": "What is the charge for NEFT/RTGS through net banking?",
+    "answer": "Most banks offer free NEFT/RTGS through internet and mobile banking. Branch transactions may attract small charges."
+  },
+  {
+    "question": "What is a passbook and is it still used?",
+    "answer": "A passbook is a physical record of account transactions. Many banks still issue it, though digital statements and apps are more commonly used."
+  },
+  {
+    "question": "How can I get an account statement?",
+    "answer": "You can download it from net banking/mobile app, request via email, or get a physical statement from the branch (charges may apply)."
+  },
+  {
+    "question": "What is the meaning of ‘Inoperative’ or ‘Dormant’ account?",
+    "answer": "An account becomes dormant/inoperative if there are no customer-induced transactions for 24 months (as per RBI). Reactivation requires KYC update."
+  },
+  {
+    "question": "How can I reactivate a dormant account?",
+    "answer": "Visit the branch with KYC documents and a written request, or follow the bank’s online reactivation process if available."
+  },
+  {
+    "question": "What is the RBI’s guideline on unclaimed deposits?",
+    "answer": "Deposits remaining unclaimed for 10 years are transferred to the Depositor Education and Awareness (DEA) Fund. Customers can still claim them later."
+  },
+  {
+    "question": "How can I check if I have unclaimed deposits?",
+    "answer": "You can search on the RBI’s UDGAM portal[](https://udgam.rbi.org.in) using your name, PAN, or other details."
+  },
+  {
+    "question": "What is a credit score and why is it important?",
+    "answer": "A credit score (CIBIL, Experian, etc.) is a number between 300–900 that reflects your creditworthiness. A good score (750+) helps in getting loans and credit cards easily."
+  },
+  {
+    "question": "How can I check my CIBIL score for free?",
+    "answer": "You can check it once a year free from the CIBIL website or through bank apps and partner platforms that offer free credit reports."
+  },
+  {
+    "question": "What factors affect my credit score?",
+    "answer": "Payment history, credit utilisation, length of credit history, types of credit, and recent credit enquiries."
+  },
+  {
+    "question": "What is the process to apply for a personal loan?",
+    "answer": "Apply online or at a branch with identity, address, income proof (salary slips, IT returns), and bank statements. Approval depends on credit score and eligibility."
+  },
+  {
+    "question": "What is the difference between a secured and unsecured loan?",
+    "answer": "Secured loans require collateral (home, gold, car). Unsecured loans (personal loans, credit cards) do not require collateral and usually have higher interest rates."
+  },
+  {
+    "question": "What is EMI and how is it calculated?",
+    "answer": "Equated Monthly Instalment (EMI) is the fixed amount paid monthly towards a loan. It is calculated using the formula based on principal, interest rate, and tenure."
+  },
+  {
+    "question": "Can I prepay my home loan or personal loan?",
+    "answer": "Yes. Most banks allow prepayment. Home loans usually have no or low prepayment charges for floating rate loans. Personal loans may have charges."
+  },
+  {
+    "question": "What is the current repo rate and how does it affect loan interest?",
+    "answer": "The repo rate is the rate at which RBI lends to banks. When RBI changes the repo rate, banks usually revise their lending rates (MCLR or external benchmark linked rates) accordingly."
+  },
+  {
+    "question": "What is MCLR?",
+    "answer": "Marginal Cost of Funds based Lending Rate is the minimum interest rate below which banks cannot lend (except in certain cases). Many loans are linked to MCLR."
+  },
+  {
+    "question": "What is an external benchmark linked lending rate?",
+    "answer": "Since October 2019, floating rate loans to retail and MSME borrowers are linked to external benchmarks like repo rate, making rate transmission faster."
+  },
+  {
+    "question": "What documents are required for a home loan?",
+    "answer": "Identity & address proof, income proof, property documents, bank statements, and passport-size photographs."
+  },
+  {
+    "question": "What is the maximum tenure for a home loan in India?",
+    "answer": "Most banks offer home loans up to 30 years, subject to the age of the borrower (usually up to 70–75 years at maturity)."
+  },
+  {
+    "question": "What is a processing fee for loans?",
+    "answer": "It is a one-time fee charged by banks for processing the loan application, usually 0.5%–2% of the loan amount plus GST."
+  },
+  {
+    "question": "What is the difference between fixed and floating interest rate loans?",
+    "answer": "Fixed rate remains constant throughout the tenure. Floating rate changes with market conditions (linked to MCLR or repo rate)."
+  },
+  {
+    "question": "Can I switch from floating to fixed interest rate?",
+    "answer": "Yes, most banks allow conversion on payment of a conversion fee."
+  },
+  {
+    "question": "What is a balance transfer of loan?",
+    "answer": "It is the process of transferring an existing loan from one bank to another that offers a lower interest rate, often with processing charges."
+  },
+  {
+    "question": "What is the lock-in period for Fixed Deposits?",
+    "answer": "There is no mandatory lock-in, but premature withdrawal before the tenure attracts a penalty (usually 0.5%–1% reduction in interest)."
+  },
+  {
+    "question": "Can senior citizens get higher interest on FDs?",
+    "answer": "Yes. Most banks offer an additional 0.25% to 0.75% interest to senior citizens (60 years and above)."
+  },
+  {
+    "question": "What is a Tax Saver Fixed Deposit?",
+    "answer": "It is a 5-year lock-in FD that qualifies for deduction under Section 80C of the Income Tax Act (up to ₹1.5 lakh per year)."
+  },
+  {
+    "question": "Is premature withdrawal allowed in Tax Saver FD?",
+    "answer": "No. Tax Saver FDs have a mandatory 5-year lock-in period."
+  },
+  {
+    "question": "What is the maximum amount I can deposit in a Tax Saver FD?",
+    "answer": "The maximum eligible amount under Section 80C is ₹1.5 lakh in a financial year."
+  },
+  {
+    "question": "What is a sweep-in facility?",
+    "answer": "It automatically transfers excess funds from a savings/current account to a linked fixed deposit to earn higher interest, and reverses when needed."
+  },
+  {
+    "question": "What is the meaning of ‘Auto Sweep’ or ‘Flexi Deposit’?",
+    "answer": "It is the same as sweep-in facility where surplus money is swept into FD and can be withdrawn as needed without breaking the entire FD."
+  },
+  {
+    "question": "How can I register a complaint against a bank?",
+    "answer": "First approach the bank’s grievance redressal system. If unresolved in 30 days, escalate to the Banking Ombudsman through the RBI CMS portal[](https://cms.rbi.org.in)."
+  },
+  {
+    "question": "What is the Banking Ombudsman Scheme?",
+    "answer": "It is an RBI scheme for resolving customer complaints against banks related to deficiency in services, free of cost."
+  },
+  {
+    "question": "What is the time limit to file a complaint with the Banking Ombudsman?",
+    "answer": "Within one year from the date of receiving the bank’s reply or from the date of cause of action if no reply is received within 30 days."
+  },
+  {
+    "question": "What is the compensation limit under Banking Ombudsman?",
+    "answer": "The Ombudsman can award compensation up to ₹20 lakh for consequential loss and ₹1 lakh for mental agony and harassment."
+  },
+  {
+    "question": "How can I update my mobile number or email in the bank account?",
+    "answer": "Through net banking, mobile app, ATM, or by visiting the branch with a request form and KYC documents."
+  },
+  {
+    "question": "What is the importance of registering a mobile number with the bank?",
+    "answer": "It is required for SMS alerts, OTP authentication, UPI, net banking login, and fraud prevention."
+  },
+  {
+    "question": "What should I do if I receive a suspicious SMS or call claiming to be from the bank?",
+    "answer": "Never share OTP, PIN, CVV, or password. Banks never ask for such details. Report the number to the bank and cybercrime portal."
+  },
+  {
+    "question": "What is phishing in banking?",
+    "answer": "Phishing is a fraud technique where fake emails, SMS, or websites are used to steal banking credentials and OTPs."
+  },
+  {
+    "question": "How can I protect myself from banking frauds?",
+    "answer": "Never share OTP/PIN, use official apps, enable transaction alerts, avoid public Wi-Fi for banking, and regularly monitor account statements."
+  },
+  {
+    "question": "What is the liability of a customer in case of unauthorised electronic transactions?",
+    "answer": "As per RBI guidelines, if reported within 3 days, customer liability is zero (in most cases). Delayed reporting increases customer liability."
+  },
+  {
+    "question": "What is a virtual debit card?",
+    "answer": "It is a temporary digital card generated for online transactions with limited validity and amount, enhancing security."
+  },
+  {
+    "question": "What is contactless payment?",
+    "answer": "It allows payments by tapping the debit/credit card or mobile (NFC) on the POS machine without inserting the card, usually up to ₹5,000 without PIN."
+  },
+  {
+    "question": "What is the limit for contactless transactions without PIN?",
+    "answer": "Currently ₹5,000 per transaction as per RBI guidelines."
+  },
+  {
+    "question": "Can I get a duplicate passbook or statement?",
+    "answer": "Yes. Banks issue duplicate passbooks or statements on request, usually with a small fee."
+  },
+  {
+    "question": "What is the meaning of ‘Lien’ on a bank account or FD?",
+    "answer": "Lien means the bank has a right to hold the funds as security against a loan or dues. The amount under lien cannot be withdrawn freely."
+  },
+  {
+    "question": "What is a safe deposit locker?",
+    "answer": "It is a secure locker facility provided by banks to store valuables. Allotment is subject to availability and KYC."
+  },
+  {
+    "question": "Are bank lockers safe? Who is liable for loss?",
+    "answer": "Banks take reasonable care but are not insurers. As per Supreme Court guidelines, banks have limited liability unless negligence is proved."
+  },
+  {
+    "question": "What is the annual charge for a bank locker?",
+    "answer": "It varies by size and bank, typically ₹1,000–₹10,000 per year plus GST."
+  },
+  {
+    "question": "Can I nominate someone for my bank locker?",
+    "answer": "Yes. Nomination facility is available for lockers."
+  },
+  {
+    "question": "What is the process to operate a locker after the hirer’s death?",
+    "answer": "Nominee or legal heirs need to submit death certificate and other documents. The bank will allow inventory and release contents as per rules."
+  },
+  {
+    "question": "What is the meaning of ‘Form 15G’ and ‘Form 15H’?",
+    "answer": "These are self-declaration forms submitted to avoid TDS on interest income if total income is below taxable limit. Form 15G for non-seniors, 15H for senior citizens."
+  },
+  {
+    "question": "When should I submit Form 15G/15H?",
+    "answer": "At the beginning of the financial year or when opening an FD, to prevent TDS deduction."
+  },
+  {
+    "question": "What is the threshold for TDS on FD interest?",
+    "answer": "TDS is deducted if interest exceeds ₹40,000 in a financial year (₹50,000 for senior citizens)."
+  },
+  {
+    "question": "How can I download my Form 16A or TDS certificate?",
+    "answer": "From the bank’s net banking portal or by requesting the bank. It can also be downloaded from the Income Tax TRACES portal."
+  },
+  {
+    "question": "What is the difference between savings bank interest and FD interest taxation?",
+    "answer": "Both are taxable. Savings interest up to ₹10,000 is deductible under Section 80TTA (₹50,000 under 80TTB for seniors). FD interest has no such specific deduction except 80C for tax-saver FDs."
+  },
+  {
+    "question": "What is a Certificate of Deposit (CD)?",
+    "answer": "It is a negotiable money market instrument issued by banks for large deposits (minimum ₹5 lakh) for short tenures, mainly for institutions and high-net-worth individuals."
+  },
+  {
+    "question": "What is the role of NPCI in Indian banking?",
+    "answer": "National Payments Corporation of India (NPCI) operates retail payment systems like UPI, IMPS, RuPay, NACH, Bharat BillPay, and FASTag."
+  },
+  {
+    "question": "What is RuPay card?",
+    "answer": "RuPay is India’s domestic card payment network promoted by NPCI, offering debit, credit, and prepaid cards as an alternative to Visa and Mastercard."
+  },
+  {
+    "question": "Is RuPay accepted internationally?",
+    "answer": "RuPay cards are mainly for domestic use. Some variants have international acceptance through partnerships."
+  },
+  {
+    "question": "What is Bharat Bill Payment System (BBPS)?",
+    "answer": "It is an RBI-mandated system that allows payment of utility bills, insurance premiums, education fees, etc., through a single platform via banks and apps."
+  },
+  {
+    "question": "What is FASTag?",
+    "answer": "FASTag is an electronic toll collection system using RFID technology linked to a prepaid account for seamless highway toll payments."
+  },
+  {
+    "question": "How can I recharge or link FASTag?",
+    "answer": "Through bank apps, net banking, or FASTag issuer portals using vehicle registration number."
+  },
+  {
+    "question": "What is the penalty for not having FASTag?",
+    "answer": "Vehicles without FASTag are charged double the toll fee at plazas."
+  },
+  {
+    "question": "What is Account Aggregator framework?",
+    "answer": "It is an RBI-regulated system that allows secure sharing of financial data (with consent) between banks and fintechs for better credit assessment and services."
+  },
+  {
+    "question": "What is video KYC?",
+    "answer": "It is a method of completing KYC through a live video call with a bank official, allowed by RBI for opening accounts remotely."
+  },
+  {
+    "question": "Can I open a current account online?",
+    "answer": "Many banks allow online current account opening for individuals and businesses with digital KYC, subject to verification."
+  },
+  {
+    "question": "What is the difference between a sole proprietorship and individual savings account?",
+    "answer": "A sole proprietorship current account is for business transactions and requires business proof. Savings accounts are for personal use."
+  },
+  {
+    "question": "What documents are needed to open a current account for a business?",
+    "answer": "Business registration proof, PAN, address proof, identity proof of proprietors/partners/directors, and board resolution (for companies)."
+  },
+  {
+    "question": "What is the meaning of ‘Positive Pay System’ for cheques?",
+    "answer": "It is an RBI-mandated system where the issuer reconfirms cheque details (amount, payee, etc.) online before the cheque is presented, reducing fraud."
+  },
+  {
+    "question": "Is Positive Pay mandatory?",
+    "answer": "It is mandatory for cheques of ₹50,000 and above in many banks, and recommended for all high-value cheques."
+  },
+  {
+    "question": "What is the time limit for clearing a local cheque?",
+    "answer": "Local cheques are generally cleared on the same day or next working day under the Cheque Truncation System (CTS)."
+  },
+  {
+    "question": "What is CTS (Cheque Truncation System)?",
+    "answer": "It is an image-based cheque clearing system that eliminates physical movement of cheques, making clearing faster and more secure."
+  },
+  {
+    "question": "What is the validity period of a cheque?",
+    "answer": "A cheque is valid for 3 months from the date of issue."
+  },
+  {
+    "question": "Can a post-dated cheque be presented before the date?",
+    "answer": "No. Banks will not honour a cheque before the date written on it."
+  },
+  {
+    "question": "What is a ‘Stale Cheque’?",
+    "answer": "A cheque that is presented after 3 months from its date is called a stale cheque and is not honoured."
+  },
+  {
+    "question": "What is the meaning of ‘Crossing a cheque’?",
+    "answer": "Crossing a cheque (drawing two parallel lines) means it can only be deposited into a bank account and not encashed over the counter."
+  },
+  {
+    "question": "What is an ‘Account Payee’ cheque?",
+    "answer": "An Account Payee cheque can only be credited to the payee’s account and cannot be endorsed further."
+  },
+  {
+    "question": "Can I get cash against a crossed cheque?",
+    "answer": "No. Crossed cheques can only be deposited into an account."
+  },
+  {
+    "question": "What is the process for obtaining a duplicate Demand Draft?",
+    "answer": "Submit a request with the original DD details, indemnity bond, and required documents at the issuing branch."
+  },
+  {
+    "question": "What is the cooling period after changing mobile number linked to the bank account?",
+    "answer": "Many banks impose a cooling period (24–48 hours or more) for high-risk transactions after mobile number change for security reasons."
+  },
+  {
+    "question": "What is the RBI’s guideline on SMS alerts?",
+    "answer": "Banks must send SMS alerts for all debit transactions above a threshold (usually ₹5,000 or as set by customer) and for all credit card transactions."
+  },
+  {
+    "question": "Can I set transaction limits on my debit card?",
+    "answer": "Yes. Most banks allow customers to set daily limits for ATM, POS, and e-commerce transactions through net banking or app."
+  },
+  {
+    "question": "What is ‘Hotlisting’ of a card?",
+    "answer": "Hotlisting means permanently blocking a lost or stolen debit/credit card so that it cannot be used."
+  },
+  {
+    "question": "How quickly should I report a lost card?",
+    "answer": "Immediately. The sooner you report, the lower your liability for unauthorised transactions."
+  },
+  {
+    "question": "What is the difference between a prepaid card and a debit card?",
+    "answer": "A prepaid card is loaded with a fixed amount in advance and is not linked to a bank account. A debit card is linked to your savings/current account."
+  },
+  {
+    "question": "Are prepaid cards useful?",
+    "answer": "Yes, for controlled spending, gifting, travel, and online transactions without exposing the main bank account."
+  },
+  {
+    "question": "What is a gift card issued by banks?",
+    "answer": "It is a prepaid card that can be used for purchases up to the loaded amount, often used as gifts."
+  },
+  {
+    "question": "What is the maximum amount that can be loaded on a prepaid card?",
+    "answer": "As per RBI guidelines, the maximum outstanding balance on a prepaid card is generally ₹2 lakh."
+  },
+  {
+    "question": "What is the process to convert a resident savings account to NRO after becoming NRI?",
+    "answer": "Inform the bank about change in residential status and submit required documents (passport, visa, overseas address proof). The account is redesignated as NRO."
+  },
+  {
+    "question": "Can NRIs continue to hold resident savings accounts?",
+    "answer": "No. As per FEMA, resident accounts must be redesignated as NRO accounts upon becoming NRI."
+  },
+  {
+    "question": "What is the repatriation limit from NRO account?",
+    "answer": "Up to USD 1 million per financial year is allowed from NRO account after paying applicable taxes, subject to documentation."
+  },
+  {
+    "question": "What is FCNR account?",
+    "answer": "Foreign Currency Non-Resident account is a term deposit account maintained in foreign currency by NRIs. Principal and interest are fully repatriable and tax-free in India."
+  },
+  {
+    "question": "What currencies are allowed in FCNR deposits?",
+    "answer": "Major currencies like USD, GBP, EUR, JPY, AUD, CAD, etc., as permitted by the bank."
+  },
+  {
+    "question": "What is the minimum tenure for FCNR deposit?",
+    "answer": "Minimum 1 year and maximum 5 years."
+  },
+  {
+    "question": "Is interest on FCNR taxable in India?",
+    "answer": "No. Interest earned on FCNR deposits is exempt from tax in India."
+  },
+  {
+    "question": "What is the meaning of ‘Remittance’?",
+    "answer": "Remittance refers to transfer of money from one country to another, commonly used by NRIs sending money to India."
+  },
+  {
+    "question": "What are the popular ways for NRIs to send money to India?",
+    "answer": "Through bank wire transfers, online remittance services, or NRE/NRO accounts."
+  },
+  {
+    "question": "What is the Liberalised Remittance Scheme (LRS)?",
+    "answer": "Under LRS, resident individuals can remit up to USD 250,000 per financial year for permitted current and capital account transactions abroad."
+  },
+  {
+    "question": "What is the purpose of LRS?",
+    "answer": "It allows residents to invest, study, travel, gift, or make other permitted remittances abroad within the limit."
+  },
+  {
+    "question": "Is PAN mandatory for LRS remittances?",
+    "answer": "Yes. PAN is mandatory for all LRS transactions."
+  },
+  {
+    "question": "What is TCS on foreign remittances under LRS?",
+    "answer": "Tax Collected at Source (TCS) is applicable on LRS remittances above certain thresholds (currently 20% on most remittances above ₹7 lakh, with lower rates for education/medical)."
+  },
+  {
+    "question": "How can I track my NEFT/RTGS/IMPS transaction?",
+    "answer": "Using the UTR (Unique Transaction Reference) number provided after the transfer, through the bank’s tracking facility or app."
+  },
+  {
+    "question": "What is UTR number?",
+    "answer": "Unique Transaction Reference number is a unique ID generated for every NEFT, RTGS, or IMPS transaction for tracking purposes."
+  },
+  {
+    "question": "How long does it take for a failed UPI transaction to reverse?",
+    "answer": "Usually within a few minutes to 24 hours. In some cases, it may take up to 5–7 working days."
+  },
+  {
+    "question": "What should I do if money is credited to a wrong account via UPI or NEFT?",
+    "answer": "Immediately contact your bank with transaction details. The bank will try to recover the amount from the beneficiary bank as per RBI guidelines."
+  },
+  {
+    "question": "Is the bank responsible if I transfer money to a wrong account number?",
+    "answer": "Generally no, if the account number was correctly entered by you. Recovery depends on the cooperation of the beneficiary."
+  },
+  {
+    "question": "What is the RBI’s guideline on recovery of wrong credits?",
+    "answer": "Banks must make efforts to recover the amount. If the beneficiary does not return it, legal action may be required."
+  },
+  {
+    "question": "What is a ‘Beneficiary’ in banking?",
+    "answer": "A beneficiary is the person or account to whom money is being transferred."
+  },
+  {
+    "question": "Why do banks have a cooling period for adding a new beneficiary?",
+    "answer": "For security reasons, to prevent fraud. Usually 30 minutes to 24 hours before the first transfer is allowed."
+  },
+  {
+    "question": "Can I transfer money to an international account from an Indian savings account?",
+    "answer": "Yes, under the Liberalised Remittance Scheme (LRS) through the bank, subject to FEMA guidelines and documentation."
+  },
+  {
+    "question": "What is SWIFT code?",
+    "answer": "SWIFT (Society for Worldwide Interbank Financial Telecommunication) code is an international bank identifier used for cross-border transfers, similar to IFSC for domestic transfers."
+  },
+  {
+    "question": "How can I find my bank’s SWIFT code?",
+    "answer": "It is available on the bank’s website, passbook, or by contacting customer care. Each bank has a unique SWIFT/BIC code."
+  },
+  {
+    "question": "What charges apply for outward remittance?",
+    "answer": "Banks charge a flat fee or percentage plus GST and correspondent bank charges. Charges vary widely."
+  },
+  {
+    "question": "What is the difference between a bank and an NBFC?",
+    "answer": "Banks can accept demand deposits and form part of the payment system. NBFCs (Non-Banking Financial Companies) cannot accept demand deposits and have different regulatory requirements."
+  },
+  {
+    "question": "Are deposits in NBFCs covered by DICGC insurance?",
+    "answer": "No. Only bank deposits are insured by Deposit Insurance and Credit Guarantee Corporation (DICGC) up to ₹5 lakh per depositor per bank."
+  },
+  {
+    "question": "What is DICGC insurance?",
+    "answer": "Deposit Insurance and Credit Guarantee Corporation insures bank deposits up to ₹5 lakh per depositor per bank in case of bank failure."
+  },
+  {
+    "question": "Does DICGC cover Fixed Deposits?",
+    "answer": "Yes. Savings, current, fixed, and recurring deposits are covered up to ₹5 lakh (including principal and interest)."
+  },
+  {
+    "question": "Is interest earned after the date of bank failure also insured?",
+    "answer": "Yes, interest up to the date of cancellation of the bank’s licence is covered within the overall limit of ₹5 lakh."
+  },
+  {
+    "question": "How can I check if my bank is covered under DICGC?",
+    "answer": "All commercial banks, regional rural banks, and cooperative banks (with some exceptions) registered with RBI are covered. You can check on the DICGC website."
+  },
+  {
+    "question": "What is the process to claim DICGC insurance if a bank fails?",
+    "answer": "DICGC pays the insured amount through a designated bank. Depositors need to submit claims as per the process announced."
+  },
+  {
+    "question": "What is the maximum insurance cover under DICGC?",
+    "answer": "₹5 lakh per depositor per bank (including principal and interest)."
+  },
+  {
+    "question": "Does the ₹5 lakh cover apply separately for different banks?",
+    "answer": "Yes. The limit is per depositor per bank. Deposits in different banks are insured separately."
+  },
+  {
+    "question": "Are joint account deposits insured separately?",
+    "answer": "Joint accounts are insured separately from individual accounts, but the limit applies to the combined share of each depositor."
+  },
+  {
+    "question": "What is the meaning of ‘Banking Hours’?",
+    "answer": "Standard banking hours are usually 10 AM to 4 PM on weekdays and 10 AM to 1 PM on Saturdays (second and fourth Saturdays are holidays for most banks)."
+  },
+  {
+    "question": "Are banks open on public holidays?",
+    "answer": "No. Banks remain closed on public holidays declared under the Negotiable Instruments Act and on second & fourth Saturdays."
+  },
+  {
+    "question": "What services are available 24×7 in Indian banks?",
+    "answer": "ATMs, net banking, mobile banking, UPI, IMPS, NEFT, and RTGS are available 24×7."
+  },
+  {
+    "question": "What is the customer service number for most banks?",
+    "answer": "Banks have dedicated 24×7 helplines. You can find them on the bank’s website or by searching ‘[Bank Name] customer care’."
+  },
+  {
+    "question": "How can I escalate a complaint within the bank?",
+    "answer": "Follow the bank’s three-tier grievance redressal system: Branch → Regional Office → Principal Nodal Officer. Details are available on the bank’s website."
+  },
+  {
+    "question": "What is the time frame for banks to resolve customer complaints?",
+    "answer": "Banks are expected to resolve most complaints within 30 days. If not, customers can approach the Banking Ombudsman."
+  },
+  {
+    "question": "What is the Integrated Ombudsman Scheme of RBI?",
+    "answer": "It is a unified scheme covering complaints against banks, NBFCs, and payment system operators under one framework, accessible via the CMS portal."
+  },
+  {
+    "question": "Can I file a complaint against a bank online?",
+    "answer": "Yes, through the RBI Complaint Management System (CMS) portal at https://cms.rbi.org.in."
+  },
+  {
+    "question": "Is there any fee for filing a complaint with the Banking Ombudsman?",
+    "answer": "No. The scheme is free of cost for customers."
+  },
+  {
+    "question": "What types of complaints can be filed with the Banking Ombudsman?",
+    "answer": "Complaints related to deficiency in banking services, non-adherence to RBI guidelines, unfair practices, etc., as listed in the scheme."
+  },
+  {
+    "question": "What is the time limit for the Ombudsman to decide a complaint?",
+    "answer": "The Ombudsman aims to resolve complaints within 30 days of receiving the bank’s reply, though complex cases may take longer."
+  },
+  {
+    "question": "Can the decision of the Banking Ombudsman be appealed?",
+    "answer": "Yes. Either party can appeal to the Appellate Authority (Deputy Governor of RBI) within 30 days of the award."
+  },
+  {
+    "question": "What is the meaning of ‘Non-Performing Asset (NPA)’?",
+    "answer": "An NPA is a loan or advance where the borrower has stopped paying interest or principal for more than 90 days."
+  },
+  {
+    "question": "How does NPA affect a customer?",
+    "answer": "It negatively impacts the credit score and may lead to recovery actions by the bank, including legal proceedings."
+  },
+  {
+    "question": "What is the process of loan recovery by banks?",
+    "answer": "Banks follow SARFAESI Act, DRT, or civil courts for recovery. They may also offer One-Time Settlement (OTS) schemes."
+  },
+  {
+    "question": "What is SARFAESI Act?",
+    "answer": "Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act allows banks to seize and sell collateral without court intervention in case of default."
+  },
+  {
+    "question": "Can a bank freeze my account?",
+    "answer": "Yes, in cases of suspected fraud, court orders, income tax attachment, or as per regulatory directions."
+  },
+  {
+    "question": "What should I do if my account is frozen?",
+    "answer": "Contact the bank immediately to understand the reason and submit the required documents or compliance for unfreezing."
+  },
+  {
+    "question": "What is the meaning of ‘Attachment of account’ by Income Tax?",
+    "answer": "It means the Income Tax Department has directed the bank to freeze or recover dues from the account towards tax liability."
+  },
+  {
+    "question": "How can I get my account unfrozen after IT attachment?",
+    "answer": "You need to settle the tax dues or get a release order from the Income Tax Department and submit it to the bank."
+  },
+  {
+    "question": "What is a ‘Garnishee Order’?",
+    "answer": "It is a court order directing a bank to freeze a customer’s account and pay the amount to a third party (usually a creditor)."
+  },
+  {
+    "question": "What is the difference between a savings account and a salary account?",
+    "answer": "A salary account is a type of savings account with zero or low balance requirements, additional benefits, and is linked to the employer’s payroll."
+  },
+  {
+    "question": "Can I convert my salary account to a regular savings account?",
+    "answer": "Yes, after leaving the job, most banks convert it to a regular savings account, which may then require minimum balance."
+  },
+  {
+    "question": "What benefits do salary accounts usually offer?",
+    "answer": "Zero balance facility, free debit card, higher withdrawal limits, personal accident insurance, and preferential loan rates."
+  },
+  {
+    "question": "What is the process to change the home branch of my account?",
+    "answer": "Submit a request at the current or new branch. The account number usually remains the same; only the home branch changes."
+  },
+  {
+    "question": "Does changing the home branch affect IFSC or account number?",
+    "answer": "Account number remains the same. IFSC may change if the new branch has a different code, but many banks keep a single IFSC for the customer."
+  },
+  {
+    "question": "What is ‘Anywhere Banking’?",
+    "answer": "It allows customers to operate their accounts from any branch of the same bank across India."
+  },
+  {
+    "question": "What is Core Banking Solution (CBS)?",
+    "answer": "Core Banking Solution enables customers to access their accounts and perform transactions from any branch of the bank in real time."
+  },
+  {
+    "question": "What is the meaning of ‘Inter-sol’ transaction?",
+    "answer": "Transactions done at a branch other than the home branch are called inter-sol transactions. Some banks charge for certain inter-sol services."
+  },
+  {
+    "question": "Are there charges for depositing cash at another branch?",
+    "answer": "Many banks allow free cash deposits up to a limit; beyond that, charges may apply for inter-sol cash deposits."
+  },
+  {
+    "question": "What is the limit for cash deposit in a savings account?",
+    "answer": "There is no strict upper limit, but large cash deposits may require PAN and source of funds declaration as per Income Tax and PMLA rules."
+  },
+  {
+    "question": "When is PAN mandatory for cash transactions?",
+    "answer": "PAN is mandatory for cash deposits of ₹50,000 or more in a day, and for many other high-value transactions."
+  },
+  {
+    "question": "What is Form 60?",
+    "answer": "Form 60 is a declaration submitted when a person does not have a PAN for certain transactions."
+  },
+  {
+    "question": "What is the penalty for not quoting PAN when required?",
+    "answer": "As per Income Tax rules, a penalty of ₹10,000 may be levied for not quoting PAN in specified transactions."
+  },
+  {
+    "question": "What is the meaning of ‘Suspicious Transaction Report (STR)’?",
+    "answer": "Banks are required to report transactions that appear suspicious under the Prevention of Money Laundering Act (PMLA) to the Financial Intelligence Unit (FIU)."
+  },
+  {
+    "question": "Can a bank ask for source of funds?",
+    "answer": "Yes. Under KYC and PMLA guidelines, banks can ask for source of funds for large or unusual transactions."
+  },
+  {
+    "question": "What is the purpose of the Prevention of Money Laundering Act (PMLA)?",
+    "answer": "It aims to prevent money laundering and provides for confiscation of property derived from money laundering."
+  },
+  {
+    "question": "What is ‘Customer Due Diligence (CDD)’?",
+    "answer": "It is the process of verifying customer identity and assessing risk as part of KYC norms."
+  },
+  {
+    "question": "What is Enhanced Due Diligence (EDD)?",
+    "answer": "EDD is additional scrutiny applied to high-risk customers, such as politically exposed persons (PEPs) or those with complex transactions."
+  },
+  {
+    "question": "What is a Politically Exposed Person (PEP)?",
+    "answer": "PEPs are individuals who hold prominent public positions. Banks apply enhanced due diligence for them and their family members."
+  },
+  {
+    "question": "How often do banks update KYC?",
+    "answer": "KYC is updated periodically based on risk category: high-risk every 2 years, medium-risk every 8 years, low-risk every 10 years (as per current RBI guidelines)."
+  },
+  {
+    "question": "What happens if I do not update my KYC?",
+    "answer": "The account may be made inoperative, and transactions may be restricted until KYC is updated."
+  },
+  {
+    "question": "Can I update KYC online?",
+    "answer": "Yes. Many banks allow Aadhaar-based e-KYC or video KYC for updates through their apps or websites."
+  },
+  {
+    "question": "What is the official website of RBI for customer education?",
+    "answer": "https://www.rbi.org.in and the dedicated financial education portal."
+  },
+  {
+    "question": "Where can I find the list of Banking Ombudsmen?",
+    "answer": "On the RBI website under the Integrated Ombudsman Scheme section."
+  },
+  {
+    "question": "What is the best way to stay updated on banking rules?",
+    "answer": "Follow RBI notifications, bank websites, and official social media handles of RBI and your bank."
+  }
+]

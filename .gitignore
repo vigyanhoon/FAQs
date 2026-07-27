@@ -1,21 +1,17 @@
-# Virtual Environment
-banking-faq/
+# Virtual environments
 venv/
+banking-faq/
 .env/
 .venv/
 
-# Python cache
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Other common ignores
-.DS_Store
-*.log
-.idea/
-.vscode/
-
 # macOS
 .DS_Store
-.AppleDouble
-.LSOverride
+
+# Node
+node_modules/
+dist/

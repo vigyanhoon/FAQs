@@ -1,0 +1,16 @@
+# Virtual Environment
+banking-faq/
+venv/
+.env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Other common ignores
+.DS_Store
+*.log
+.idea/
+.vscode/
